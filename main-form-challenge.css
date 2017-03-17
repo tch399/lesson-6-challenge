@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #5f93e2;
+}
+
+main {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+img {
+	display: block;
+	margin: 30px auto;
+}
+
+.form_name {
+	font-size: 24px;
+	color: #64656a;
+	font-weight: 300;
+	text-align: center;
+}
+
+.form-field-set {
+	margin: 0 auto;
+	width: 50%;
+	border: 0;
+	/* text-align: center; */
+}
+
+label {
+	display: block;
+}
+
+
+label, input, button {
+	margin-top: 10px;
+}
+
+input, button {
+	display: block;
+	width: 320px;
+	height: 55px;
+	border: 2px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 15px;
+	font-size: 16px;
+
+}
+
+.signup-form-wrapper {
+	/* display: flex;
+	justify-content: center; */
+	margin: 0 auto;
+	background-color: white;
+	width: 400px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+}
+
+.logo {
+	height: 35px;
+}
+
+.sign-up-info {
+	/* justify-content: center; */
+}
+
+button {
+	background-color: #8bbf77;
+	color: white;
+}
+
+.forgot-password-wrapper {
+	text-align: center;
+}
+
+.login-wrapper {
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
