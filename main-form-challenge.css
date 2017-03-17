@@ -12,12 +12,17 @@ main {
 	align-items: center; */
 }
 
-img {
-	display: block;
-	margin: 30px auto;
+.logo_wrap {
+	width: 135px;
+	margin: 0 auto;
+	outline: 1px solid red;
 }
 
-.form_name {
+.logo_wrap img {
+	width: 100%;
+}
+
+h1 {
 	font-size: 24px;
 	color: #64656a;
 	font-weight: 300;
@@ -28,7 +33,7 @@ img {
 	margin: 0 auto;
 	width: 50%;
 	border: 0;
-	/* text-align: center; */
+	text-align: center;
 }
 
 label {
@@ -48,10 +53,9 @@ input, button {
 	border-radius: 3px;
 	padding: 15px;
 	font-size: 16px;
-
 }
 
-.signup-form-wrapper {
+.form-wrap {
 	/* display: flex;
 	justify-content: center; */
 	margin: 0 auto;
@@ -59,10 +63,6 @@ input, button {
 	width: 400px;
 	padding-bottom: 20px;
 	border-radius: 5px;
-}
-
-.logo {
-	height: 35px;
 }
 
 .sign-up-info {
