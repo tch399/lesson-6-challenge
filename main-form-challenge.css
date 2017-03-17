@@ -14,15 +14,14 @@ main {
 
 .logo_wrap {
 	width: 135px;
-	margin: 0 auto;
-	outline: 1px solid red;
+	margin: 30px auto;
 }
 
 .logo_wrap img {
 	width: 100%;
 }
 
-h1 {
+.form_name {
 	font-size: 24px;
 	color: #64656a;
 	font-weight: 300;
@@ -33,7 +32,6 @@ h1 {
 	margin: 0 auto;
 	width: 50%;
 	border: 0;
-	text-align: center;
 }
 
 label {
@@ -74,11 +72,11 @@ button {
 	color: white;
 }
 
-.forgot-password-wrapper {
+.forgot_wrap{
 	text-align: center;
 }
 
-.login-wrapper {
+.login_wrap {
 	text-align: center;
 	color: white;
 	margin-top: 20px;
